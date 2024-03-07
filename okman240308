@@ -1,0 +1,30 @@
+.face {
+  animation: switch 1s steps(2, end) infinite;
+}
+
+@keyframes switch {
+  0% {
+    content: "🙂";
+  }
+  100% {
+    content: "🙂‍↕️";
+  }
+}
+
+
+/* その他のスタイル */
+html, body {
+  background-color: #fff;
+}
+
+body {
+  display: grid;
+  height: 100dvh;
+  place-items: center;
+  place-content: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.face {
+  font-size: 80px;
+}
